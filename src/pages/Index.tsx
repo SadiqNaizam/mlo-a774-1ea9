@@ -30,7 +30,7 @@ const LoginPage: React.FC = () => {
   };
 
   return (
-    <main className="flex items-center justify-center min-h-screen bg-background">
+    <main className="dark flex items-center justify-center min-h-screen bg-background">
       <FormContainer onSubmit={handleSubmit}>
         {/* The heading for the login form */}
         <h1 className="text-3xl font-bold text-card-foreground">
